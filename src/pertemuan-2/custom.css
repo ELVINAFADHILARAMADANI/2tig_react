@@ -1,0 +1,59 @@
+/* Background utama cyberpunk */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at top, #0f0c29, #302b63, #000000);
+    color: #00ffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    background: rgba(10, 10, 30, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ff00ff;
+    box-shadow: 
+        0 0 10px #ff00ff,
+        0 0 20px #00ffff,
+        inset 0 0 10px rgba(0,255,255,0.5);
+}
+
+/* Header utama */
+h1 {
+    color: #ff00ff;
+    text-align: center;
+    font-size: 32px;
+    text-shadow:
+        0 0 5px #ff00ff,
+        0 0 10px #ff00ff,
+        0 0 20px #00ffff;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #00ffff;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
+    margin: 15px 0;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #ff00ff;
+    margin-top: 10px;
+    text-shadow: 0 0 5px #ff00ff;
+}
